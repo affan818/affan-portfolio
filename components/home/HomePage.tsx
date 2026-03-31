@@ -3,7 +3,7 @@
 import TerminalHero from "../hero/TerminalHero";
 
 import SkillsGrid from "../skills/SkillsGrid";
-import HackerContact from "../contact/HackerContact";
+
 import AboutDeveloper from "../about/AboutDeveloper";
 import ProjectsShowcase from "../projects/ProjectsShowcase";
 import Timeline from "../experience/Timeline";
