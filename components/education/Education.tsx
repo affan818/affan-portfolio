@@ -2,16 +2,19 @@
 
 const education = [
   {
+    id: 1,
     title: "Bachelor of Computer Applications (BCCA)",
     subtitle: "RTMNU • 2023",
   },
   {
+    id: 2,
     title: "Higher Secondary (XII)",
     subtitle: "State Board • 2019",
   },
 ];
 const certifications = [
   {
+    id: 1,
     title: "Digital IT Course",
     year: "2020",
   },
@@ -27,9 +30,9 @@ export default function Education() {
 
         {/* cards */}
         <div className="grid sm:grid-cols-2 gap-6">
-          {education.map((edu, i) => (
+          {education.map((edu) => (
             <div
-              key={i}
+              key={edu.id}
               className="group bg-[#020617] border border-slate-700 rounded-lg p-5 transition-all duration-300 hover:border-blue-400 hover:shadow-[0_0_25px_rgba(59,130,246,0.08)]"
             >
               <h3 className="text-slate-100 font-medium text-sm">
@@ -51,9 +54,9 @@ export default function Education() {
           </h3>
 
           <div className="grid sm:grid-cols-2 gap-6">
-            {certifications.map((cert, i) => (
+            {certifications.map((cert) => (
               <div
-                key={i}
+                key={cert.id}
                 className="group bg-[#020617] border border-slate-700 rounded-lg p-5 transition-all duration-300 hover:border-blue-400 hover:shadow-[0_0_25px_rgba(59,130,246,0.08)]"
               >
                 <h4 className="text-slate-100 text-sm font-medium">

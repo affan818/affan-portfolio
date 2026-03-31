@@ -9,13 +9,13 @@ const bootLogs = [
   "Compiling components...",
   "Starting dev server...",
   "Skilled frontend developer...",
-  "Portfolio ready ✓",
+  "Portfolio ready ",
 ];
 
 const commands = [
-  { cmd: "who_am_i", output: "Affan Ahmad" },
-  { cmd: "stack", output: "Next.js • React • Shopify • Node" },
-  { cmd: "status", output: "Available for work" },
+  { id: 1, cmd: "who_am_i", output: "Affan Ahmad" },
+  { id: 2, cmd: "stack", output: "Next.js • React • Shopify • Node" },
+  { id: 3, cmd: "status", output: "Available for work" },
 ];
 
 export default function TerminalHero() {
@@ -123,8 +123,8 @@ export default function TerminalHero() {
               {/* Commands */}
               {showCommands && (
                 <>
-                  {commands.slice(0, cmdIndex).map((c, i) => (
-                    <div key={i}>
+                  {commands.slice(0, cmdIndex).map((c) => (
+                    <div key={c.id}>
                       <p>
                         <span className="text-blue-400">&gt;</span> {c.cmd}
                       </p>

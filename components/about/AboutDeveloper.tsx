@@ -92,13 +92,13 @@ export default function AboutDeveloper() {
         {/* stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-20">
           {[
-            { number: "3+", label: "Years Experience" },
-            { number: "15+", label: "Projects Built" },
-            { number: "12+", label: "Technologies" },
-            { number: "101%", label: "Client Satisfaction" },
-          ].map((stat, i) => (
+            { number: "3+", label: "Years Experience", id: 1 },
+            { number: "15+", label: "Projects Built", id: 2 },
+            { number: "12+", label: "Technologies", id: 3 },
+            { number: "101%", label: "Client Satisfaction", id: 4 },
+          ].map((stat) => (
             <div
-              key={i}
+              key={stat.id}
               className="bg-[#020617] border border-slate-700 p-6 rounded-xl text-center hover:border-blue-400 transition"
             >
               <h4 className="text-3xl font-bold text-blue-400">

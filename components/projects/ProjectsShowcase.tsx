@@ -4,66 +4,77 @@ import Image from "next/image";
 
 const projects = [
   {
+    id: 1,
     title: "CargoJet",
     image: "/projects/cargojet.png",
     size: "large",
     live: "#",
   },
   {
+    id: 2,
     title: "Elisa Home Saloon",
     image: "/projects/elisa.png",
     size: "small",
     live: "https://elisahomesalon.com/",
   },
   {
+    id: 3,
     title: "Atlantis by Mittal Group",
     image: "/projects/atlantis.png",
     size: "small",
     live: "https://luminist.in/",
   },
   {
+    id: 4,
     title: "GutSake",
     image: "/projects/gutsake.png",
     size: "large",
     live: "https://www.forgutsake.in/",
   },
   {
+    id: 5,
     title: "Browns Hotel",
     image: "/projects/browns-hotel.png",
     size: "small",
     live: "https://thebrowns.in/",
   },
   {
+    id: 6,
     title: "Infradeals",
     image: "/projects/infradeals.png",
     size: "small",
     live: "https://infradeals.in/",
   },
   {
+    id: 7,
     title: "The Jaadu",
     image: "/projects/jaadu.png",
     size: "small",
     live: "https://thejaadu.com/",
   },
   {
+    id: 8,
     title: "Pl Mediaforum Digital",
     image: "/projects/mediaforum.png",
     size: "small",
     live: "https://mediaforumdigital.com/",
   },
   {
+    id: 9,
     title: "Power Storm",
     image: "/projects/powerstorm.png",
     size: "small",
     live: "https://powerstorm.in/",
   },
   {
+    id: 10,
     title: "SG Realty",
     image: "/projects/sg-realty.png",
     size: "small",
     live: "https://sgrealty.in/",
   },
   {
+    id: 11,
     title: "MKAT Brandworks",
     image: "/projects/mkat.png",
     size: "small",
@@ -85,9 +96,9 @@ export default function ProjectsShowcase() {
 
         {/* grid */}
         <div className="grid md:grid-cols-3 auto-rows-[250px] gap-6">
-          {projects.map((project, index) => (
+          {projects.map((project) => (
             <div
-              key={index}
+              key={project.id}
               className={`relative rounded-xl overflow-hidden border border-slate-700 bg-[#020617] transition ${
                 project.size === "large" ? "md:col-span-2 md:row-span-2" : ""
               }`}

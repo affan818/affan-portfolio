@@ -8,6 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const experiences = [
   {
+    id: 1,
     year: "2024 - 2026",
     title: "Web Developer • Mediaforum Digital",
     desc: "Developed responsive websites and full-stack applications using React, Tailwind, Node.js, and MongoDB. Built custom Shopify stores and optimized performance & SEO.",
@@ -19,6 +20,7 @@ const experiences = [
     tech: ["React", "Next.js", "Node.js", "MongoDB", "Shopify", "SEO"],
   },
   {
+    id: 2,
     year: "2024",
     title: "React.js Developer • Nass Technologies",
     desc: "Developed modern UI components and integrated APIs to build scalable web applications using React ecosystem.",
@@ -30,6 +32,7 @@ const experiences = [
     tech: ["React", "JavaScript", "API", "UI Development"],
   },
   {
+    id: 3,
     year: "2024",
     title: "Freelance & Client Projects",
     desc: "Worked on real-world client projects including real estate, hotel, and service platforms with performance optimization and SEO implementation.",
@@ -41,6 +44,7 @@ const experiences = [
     tech: ["HTML", "CSS", "React", "Tailwind", "SEO"],
   },
   {
+    id: 4,
     year: "2023",
     title: "Full Stack Development Journey",
     desc: "Built MERN stack applications including inventory systems and e-commerce platforms with secure backend architecture.",
@@ -107,9 +111,9 @@ export default function Timeline() {
           </div>
 
           <div className="space-y-16">
-            {experiences.map((exp, index) => (
+            {experiences.map((exp) => (
               <div
-                key={index}
+                key={exp.id}
                 className="exp-card grid md:grid-cols-[120px_1fr] gap-8 items-start"
               >
                 {/* year */}
