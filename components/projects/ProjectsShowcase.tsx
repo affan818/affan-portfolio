@@ -5,11 +5,12 @@ import Image from "next/image";
 const projects = [
   {
     id: 1,
-    title: "CargoJet",
-    image: "/projects/cargojet.png",
+    title: "for GutSake",
+    image: "/projects/gutsake.png",
     size: "large",
-    live: "#",
+    live: "https://www.forgutsake.in/",
   },
+
   {
     id: 2,
     title: "Elisa Home Saloon",
@@ -19,17 +20,17 @@ const projects = [
   },
   {
     id: 3,
-    title: "Atlantis by Mittal Group",
+    title: "Atlantis by The Mittal Group",
     image: "/projects/atlantis.png",
     size: "small",
     live: "https://luminist.in/",
   },
   {
     id: 4,
-    title: "GutSake",
-    image: "/projects/gutsake.png",
+    title: "CargoJet",
+    image: "/projects/cargojet.png",
     size: "large",
-    live: "https://www.forgutsake.in/",
+    live: "#",
   },
   {
     id: 5,
@@ -118,13 +119,20 @@ export default function ProjectsShowcase() {
                 </h3>
 
                 {/* button */}
-                <a
-                  href={project.live}
-                  target="_blank"
-                  className="inline-flex items-center gap-2 w-fit px-4 py-2 text-sm font-medium rounded-lg bg-blue-500 hover:bg-blue-400 text-white transition"
-                >
-                  View Project →
-                </a>
+                {project.live === "#" ? (
+                  <span className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-lg bg-slate-700 text-slate-400 cursor-not-allowed">
+                    Can't Access Individually
+                  </span>
+                ) : (
+                  <a
+                    href={project.live}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 w-fit px-4 py-2 text-sm font-medium rounded-lg bg-blue-500 hover:bg-blue-400 text-white transition"
+                  >
+                    View Project →
+                  </a>
+                )}
               </div>
             </div>
           ))}

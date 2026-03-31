@@ -8,7 +8,7 @@ const bootLogs = [
   "Loading modules...",
   "Compiling components...",
   "Starting dev server...",
-  "Skilled frontend developer...",
+  "full stack developer...",
   "Portfolio ready ",
 ];
 
@@ -96,7 +96,7 @@ export default function TerminalHero() {
         <div className="p-8 space-y-3">
           {!start && (
             <>
-              <p>Welcome to my developer portfolio</p>
+              <p>Welcome to my portfolio</p>
 
               <button
                 onClick={() => setStart(true)}
@@ -149,7 +149,7 @@ export default function TerminalHero() {
 
                   <div className="flex flex-wrap gap-4 mt-6">
                     <a
-                      href="/affan-resume.pdf"
+                      href="/AFFAN-AHMAD-CV.pdf"
                       download
                       className="flex items-center gap-2 px-5 py-2 rounded-lg bg-blue-500 hover:bg-blue-400 text-white text-sm transition"
                     >
@@ -157,7 +157,7 @@ export default function TerminalHero() {
                     </a>
 
                     <a
-                      href="tel:+918830026874"
+                      href="tel:+919022755384"
                       className="flex items-center gap-2 px-5 py-2 rounded-lg border border-slate-600 hover:border-blue-400 text-sm transition"
                     >
                       <FiPhone /> Call

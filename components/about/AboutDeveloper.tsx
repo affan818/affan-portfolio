@@ -52,26 +52,40 @@ export default function AboutDeveloper() {
             </h3>
 
             <p className="text-slate-400 leading-relaxed">
-              I'm a passionate Frontend Developer based in Nagpur, India
-              specializing in creating high-performance web experiences using{" "}
+              I'm a Full Stack Developer based in{" "}
+              <span className="text-blue-400">Nagpur, India</span>, specializing
+              in building high-performance web applications using{" "}
               <span className="text-blue-400">
-                React.js, Next.js, Tailwind CSS, and GSAP
+                React.js, Next.js, Node.js, MongoDB, and Shopify
               </span>
               .
               <br />
               <br />
-              I transform UI/UX designs into pixel-perfect, responsive
-              applications that are fast, smooth, and user-friendly across all
-              devices.
+              I develop complete end-to-end solutions — from modern frontend
+              interfaces to scalable backend systems and APIs. My focus is on
+              creating fast, responsive, and SEO-optimized applications that
+              deliver real business results.
               <br />
               <br />
-              From e-commerce platforms to creative landing pages, I build
-              scalable and SEO-optimized solutions that focus on performance,
-              usability, and conversion.
+              With experience in{" "}
+              <span className="text-blue-400">
+                MERN stack development, Shopify store setup, and technical SEO
+              </span>
+              , I build websites that are not only visually appealing but also
+              optimized for performance, search engines, and conversions.
               <br />
               <br />
-              Web Developer Based in Nagpur, India - available for freelance and
-              full-time opportunities.
+              I have worked on real-world projects including e-commerce
+              platforms, inventory systems, and business websites, helping
+              brands improve their online presence and user experience.
+              <br />
+              <br />
+              Currently, I'm available for freelance and full-time opportunities
+              as a{" "}
+              <span className="text-blue-400">
+                Full Stack Developer, React Developer, or Shopify Developer
+              </span>
+              . Let's build something impactful together!
             </p>
 
             {/* info cards */}

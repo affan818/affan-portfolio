@@ -3,7 +3,7 @@
 const education = [
   {
     id: 1,
-    title: "Bachelor of Computer Applications (BCCA)",
+    title: "Bachelor of Commerce Computer Applications (BCCA)",
     subtitle: "RTMNU • 2023",
   },
   {
