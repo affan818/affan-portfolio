@@ -28,7 +28,8 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Affan Ahmad Portfolio",
-    description: "Full Stack Developer specializing in React & Next.js",
+    description:
+      "Full Stack Developer specializing in React, Next.js & Shopify Development",
     url: "https://affan-portfolio-six.vercel.app/",
     siteName: "Affan Portfolio",
     images: [
