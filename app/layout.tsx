@@ -13,11 +13,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Affan Ahmad | Frontend Developer in Nagpur | React & Next.js Expert",
+  title:
+    "Affan Ahmad | Full Stack Developer in Nagpur | React & Next.js Expert",
   description:
-    "Affan Ahmad is a Frontend Developer specializing in React.js, Next.js, Shopify, and SEO. Based in Nagpur, India. Available for freelance and full-time projects.",
+    "Affan Ahmad is a Full Stack Developer specializing in React.js, Next.js, Shopify, and SEO. Based in Nagpur, India. Available for full-time and freelance projects.",
   keywords: [
     "Frontend Developer Nagpur",
+    "Backend Developer",
+    "Full Stack Developer Maharashtra",
     "React Developer India",
     "Next.js Developer",
     "Shopify Developer",
@@ -25,8 +28,8 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Affan Ahmad Portfolio",
-    description: "Frontend Developer specializing in React & Next.js",
-    url: "https://yourdomain.com",
+    description: "Full Stack Developer specializing in React & Next.js",
+    url: "https://affan-portfolio-six.vercel.app/",
     siteName: "Affan Portfolio",
     images: [
       {
