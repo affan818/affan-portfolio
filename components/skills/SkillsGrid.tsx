@@ -15,7 +15,7 @@ import {
   SiGithub,
   SiGreensock,
 } from "react-icons/si";
-
+import { SiNextdotjs } from "react-icons/si";
 import { FaSearch } from "react-icons/fa";
 import { BsGraphUp } from "react-icons/bs";
 const skillGroups = [
@@ -27,7 +27,7 @@ const skillGroups = [
       { id: 2, name: "CSS", icon: SiCss },
       { id: 3, name: "JavaScript", icon: SiJavascript },
       { id: 4, name: "React", icon: SiReact },
-      { id: 5, name: "Next.js", icon: FaSearch },
+      { id: 5, name: "Next.js", icon: SiNextdotjs },
       { id: 6, name: "Tailwind", icon: SiTailwindcss },
       { id: 7, name: "Bootstrap", icon: SiBootstrap },
       { id: 8, name: "GSAP", icon: SiGreensock },
