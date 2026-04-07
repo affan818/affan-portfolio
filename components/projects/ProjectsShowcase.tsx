@@ -10,20 +10,19 @@ const projects = [
     size: "large",
     live: "https://www.forgutsake.in/",
   },
-
-  {
-    id: 2,
-    title: "Elisa Home Saloon",
-    image: "/projects/elisa.png",
-    size: "small",
-    live: "https://elisahomesalon.com/",
-  },
   {
     id: 3,
     title: "Atlantis by The Mittal Group",
     image: "/projects/atlantis.png",
     size: "small",
     live: "https://luminist.in/",
+  },
+  {
+    id: 2,
+    title: "Elisa Home Saloon",
+    image: "/projects/elisa.png",
+    size: "small",
+    live: "https://elisahomesalon.com/",
   },
   {
     id: 4,
