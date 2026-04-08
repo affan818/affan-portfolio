@@ -15,7 +15,7 @@ const projects = [
     title: "Atlantis by The Mittal Group",
     image: "/projects/atlantis.png",
     size: "small",
-    live: "https://luminist.in/",
+    live: "https://atlantisbymittalgroup.com/",
   },
   {
     id: 2,
